@@ -57,5 +57,50 @@
       <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
     </div>
   </div>
+
+  <!--Calculator-->
+
+  <body>
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id="calculator">
+        <div class="form-group">
+          <label for="input1">1st number:</label>
+          <input id="input1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input2">2nd number:</label>
+          <input id="input2" class="form-control" type="text">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="add" checked>
+            add
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="subtract">
+            subtract
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="multiply">
+            multiply
+          </label>
+        </div>        
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="divide">
+            divide
+          </label>
+        </div>        
+        <button type="submit" class="btn">Go!</button>
+      </form>
+      <div id="output">
+  
+      </div>
+    </div>
 </body>
 </html>
