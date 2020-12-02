@@ -1,3 +1,11 @@
 #drinks, #under-21 {
     display: none;
+}
+ 
+<-!insurance->
+.btn {
+    display: block;
+  }
+  #quote {
+    display: none;
   }
