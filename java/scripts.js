@@ -1,5 +1,5 @@
 //Over 21
-$(document).ready(function() {
+$(document).ready(function() {   //tells java to run at the same time as the HTML w/o having to wait for everything to load
     const over21 = confirm("Are you over 21? Click OK for yes or Cancel for no.");
   
     if (over21) {
